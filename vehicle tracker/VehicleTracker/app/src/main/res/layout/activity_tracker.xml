@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tracker"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="179dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#006400"
+        android:text="View events on map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:includeFontPadding="false"
+            android:text=""
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="108dp"
+            android:layout_height="38dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="18dp"
+            android:backgroundTint="#8a2be2"
+            android:text="Logout" />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/speedmeter"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:text="0.00km/h"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.582"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.539" />
+
+    <TextView
+        android:id="@+id/emailTracker"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:includeFontPadding="false"
+        android:text=" Email: "
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

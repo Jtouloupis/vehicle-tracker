@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "424814017101",
+    "project_id": "vehicletracker-7d38d",
+    "storage_bucket": "vehicletracker-7d38d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424814017101:android:e263428f4e244fa2957a04",
+        "android_client_info": {
+          "package_name": "com.example.vehicletracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424814017101-ialt6ccuaq0bk7cmkpj660624rm8qv65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvA5Iaarki5ILIqDxLeEeDV7IX2F8bOeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424814017101-ialt6ccuaq0bk7cmkpj660624rm8qv65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+
+  ],
+  "configuration_version": "1"
+}
+
